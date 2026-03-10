@@ -1,0 +1,20 @@
+auth-api/
+│
+├── src/
+│   ├── config/
+│   │   └── db.js            # Database connection logic
+│   ├── controllers/
+│   │   └── authController.js# Logic for register, login, refresh
+│   ├── models/
+│   │   └── User.js          # MongoDB Schema for the user
+│   └── routes/
+│       └── authRoutes.js    # Express routes pointing to controllers
+│
+├── .env                     # Secret keys and DB URI
+├── .gitignore               # Ignore node_modules and .env
+├── package.json
+└── server.js                # The entry point of your app
+
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWZkMzJhMGNlZTBmMzQxODczNjRkOSIsImlhdCI6MTc3MzEzMDY5OCwiZXhwIjoxNzczNzM1NDk4fQ.Dzu5goCBvoB2fjtDNBOXnADxqy95mMAcXB_vlHX0Quk
